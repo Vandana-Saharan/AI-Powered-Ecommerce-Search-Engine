@@ -1,0 +1,84 @@
+# ============================================================
+# ecommerce-search — Root .gitignore
+# Covers: Java/Maven · Node/React (Vite) · Docker · IDEs · OS
+# ============================================================
+
+# ── Java / Maven ────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# Maven wrapper jar (keep the scripts, skip the binary)
+.mvn/wrapper/maven-wrapper.jar
+
+# ── Spring Boot ─────────────────────────────────────────────
+*.log
+spring.log
+
+# ── Node / npm ──────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── Vite / React build output ───────────────────────────────
+dist/
+dist-ssr/
+*.local
+
+# ── Environment & secrets ───────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── IDE — IntelliJ IDEA ─────────────────────────────────────
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ── IDE — VS Code ───────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+
+# ── IDE — Eclipse / STS ─────────────────────────────────────
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ── IDE — NetBeans ──────────────────────────────────────────
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ── OS generated files ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Misc ────────────────────────────────────────────────────
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
