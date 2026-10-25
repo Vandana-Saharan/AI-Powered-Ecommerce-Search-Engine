@@ -91,7 +91,22 @@ public class Product {
     private Double rating;
     private Integer stock;
     private String thumbnail;
+    private java.util.List<String> tags;
+    private String gender;
 
-    // Generate getters and setters using IntelliJ
+    public java.util.List<String> getTags() {
+        return tags;
+    }
 
+    public void setTags(java.util.List<String> tags) {
+        this.tags = tags;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 }
